@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="341.0" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="c107118202_p09_fx.FXMLDocumentController">
+   <children>
+      <Label layoutX="34.0" layoutY="43.0" text="請輸入身高" />
+      <Label layoutX="34.0" layoutY="80.0" text="請輸入體重" />
+      <TextField fx:id="hight" layoutX="109.0" layoutY="38.0" promptText="請輸入身高（cm）" />
+      <TextField fx:id="wight" layoutX="109.0" layoutY="75.0" promptText="請輸入體重（kg）" />
+      <TextField fx:id="bmi_value" layoutX="41.0" layoutY="153.0" prefHeight="27.0" prefWidth="233.0" promptText="顯示BMI值" />
+      <TextArea fx:id="suggest" layoutX="41.0" layoutY="192.0" prefHeight="128.0" prefWidth="233.0" promptText="顯示建議" />
+      <Button fx:id="btn" layoutX="34.0" layoutY="113.0" mnemonicParsing="false" onAction="#count" prefHeight="27.0" prefWidth="243.0" text="計算BMI" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="339.0" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="c107118202_p03_fx.FXMLDocumentController">
+   <children>
+      <Button fx:id="btn1" layoutX="74.0" layoutY="67.0" mnemonicParsing="false" onAction="#Length" text="圓周長" />
+      <Button fx:id="btn2" layoutX="170.0" layoutY="67.0" mnemonicParsing="false" onAction="#area" text="圓面積" />
+      <Label layoutX="36.0" layoutY="34.0" text="輸入半徑：" />
+      <TextField fx:id="r" layoutX="102.0" layoutY="29.0" />
+      <TextArea fx:id="display" layoutX="36.0" layoutY="105.0" prefHeight="200.0" prefWidth="236.0" />
+   </children>
+</AnchorPane>
